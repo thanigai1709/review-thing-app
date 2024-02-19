@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    width: 100%;
+}
+
+.nav-link.active {
+    background-color: hsl(var(--secondary) / 0.6);
+    color:var(--text-white);
+}
+
+.nav-link:hover .side-menu,
+.nav-link:focus .side-menu,
+.nav-link .side-menu[data-state='open'] {
+    opacity: 1;
+}
